@@ -1,0 +1,7 @@
+resource_group_name = "rg-terraform-vm"
+location            = "eastus"
+vm_name             = "vm-terraform-demo"
+vm_size             = "Standard_B1s"
+admin_username      = "azureuser"
+admin_password      = "ReplaceWithAStrongPassword123!"
+allowed_ssh_cidr    = "0.0.0.0/0"
