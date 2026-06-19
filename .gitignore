@@ -1,0 +1,13 @@
+# Terraform binary files
+tfplan
+*.tfstate
+*.tfstate.*
+
+# Binary files
+*.bin
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
