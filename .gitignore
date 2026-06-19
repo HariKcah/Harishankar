@@ -7,3 +7,24 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 terraform.tfvars
+
+# Common binary artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.dat
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
+*.jar
+*.war
+*.class
+*.o
+*.obj
+*.a
+*.lib
+*.pyc
