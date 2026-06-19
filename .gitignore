@@ -1,7 +1,14 @@
-# Terraform binary files
+# Terraform files
 tfplan
 *.tfstate
 *.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
 # Binary files
 *.bin
@@ -11,3 +18,9 @@ tfplan
 *.dll
 *.exe
 *.out
+*.exe~
+*.dylib
+
+# OS files
+.DS_Store
+Thumbs.db
